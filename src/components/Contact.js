@@ -9,22 +9,31 @@ class Contact extends Component {
         <Header />
         <ContactPage>
           <div className="contact">
-            <div className="right">
-              <h1>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestias porro tempora, provident a eius iusto cumque sapiente,
-                ab magnam impedit error? Aperiam amet magnam enim rem velit
-                repellendus illum ea sed eum, soluta pariatur vitae.
-              </h1>
-            </div>
             <div className="left">
-              <h1>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                eveniet ea nobis corrupti veniam perferendis tenetur modi,
-                doloremque consectetur, laborum dolore nisi a dolores illo nemo
-                amet laudantium iste perspiciatis magni temporibus.
-                Exercitationem, accusamus eaque?
-              </h1>
+              <h2>Johnny Gonzales</h2>
+              <h2>J.G.Dean97@gmail.com</h2>
+              <h2>(971) 570-1978</h2>
+            </div>
+            <div className="right">
+              <form action="contact">
+                <label htmlFor="name">Name:</label>
+                <input type="text" placeholder="Name" />
+                <hr />
+                <label htmlFor="email">Email:</label>
+                <input type="email" placeholder="Enter email" />
+                <hr />
+                <label htmlFor="msg">Enter Message:</label>
+                <br />
+                <textarea
+                  className="msg"
+                  name="msg"
+                  id="msg"
+                  cols="50"
+                  rows="20"
+                >
+                  Enter Message
+                </textarea>
+              </form>
             </div>
           </div>
         </ContactPage>

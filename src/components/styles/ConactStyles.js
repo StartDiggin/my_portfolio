@@ -12,17 +12,21 @@ const ContactPage = styled.div`
     grid-template-columns: 1fr 1fr;
   }
 
+  .left {
+    padding: 2rem;
+  }
   .right {
     display: grid;
     justify-content: center;
     border: 1px solid green;
     padding: 2rem;
-  }
-
-  .left {
-    display: grid;
-    justify-content: center;
-    padding: 2rem;
+    label {
+      color: white;
+      margin-right: 5px;
+    }
+    .msg {
+      margin-top: 10px;
+    }
   }
 `;
 
